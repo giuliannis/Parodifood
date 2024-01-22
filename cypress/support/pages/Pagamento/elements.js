@@ -1,0 +1,22 @@
+
+export const ELEMENTS = {
+    nome: ':nth-child(2) > .col-sm-6 > mt-input-container > .form-group > .form-control',
+    email: ':nth-child(2) > :nth-child(4) > mt-input-container > .form-group > .form-control',
+    confirmacaoEmail: ':nth-child(5) > mt-input-container > .form-group > .form-control',
+    endereco: ':nth-child(3) > .col-sm-6 > mt-input-container > .form-group > .form-control',
+    numero: ':nth-child(3) > :nth-child(3) > mt-input-container > .form-group > .form-control',
+    complemento: ':nth-child(3) > :nth-child(4) > mt-input-container > .form-group > .form-control',
+    pagamentoRefeicao: ':nth-child(3) > label > .iradio_flat-red > .iCheck-helper',
+    pagamentoDebito: ':nth-child(2) > label > .iradio_flat-red > .iCheck-helper',
+    pagamentoDinheiro: ':nth-child(1) > label > .iradio_flat-red > .iCheck-helper',
+    botaoConcluiPedido: '.col-xs-12 > .btn',
+    confirmaPedido: 'h2',
+    mensagemDeErroNome: '.help-block',
+    mensagemDeErroEmail: ':nth-child(4) > mt-input-container > .form-group > .help-block',
+    mensagemDeErroConfirmacaoEmail: '.col-xs-12.col-sm-3 > .help-block',
+    mensagemDeErroEndereço: '.col-sm-6 > mt-input-container > .form-group > .help-block',
+    mensagemDeErroNumero: ':nth-child(3) > :nth-child(3) > mt-input-container > .form-group > .help-block',
+    excluiItem: ':nth-child(5) > .btn > .fa',
+    mensagemDoItem: 'mt-order-items > .col-xs-12 > p',
+    mensagemDeErroInvalidoConfirmacaoEmail: ':nth-child(5) > mt-input-container > .form-group > .help-block',
+}
